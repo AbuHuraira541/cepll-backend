@@ -66,8 +66,6 @@ python-dotenv==1.0.0
 python-jose==3.3.0
 python-multipart==0.0.6
 pytz==2025.2
-pywin32==312
-pywin32-ctypes==0.2.3
 PyYAML==6.0.3
 pyzmq==27.1.0
 reportlab==5.0.1
