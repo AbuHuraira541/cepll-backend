@@ -1,5 +1,15 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/cep_project/wsgi.py" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "cep_project/wsgi.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "destination": "cep_project/wsgi.py"
+    }
   ]
 }
